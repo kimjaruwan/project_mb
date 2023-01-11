@@ -1,0 +1,51 @@
+name: a_gooddayapp
+description: Get to know Firebase with Flutter
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^2.1.0
+  cupertino_icons: ^1.0.4
+  firebase_auth: ^3.3.9
+  cloud_firestore: ^3.1.10
+  provider: ^6.0.2
+  assets_audio_player: ^3.0.3+3
+  audioplayers: ^0.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/tangmo1.mp3
+    - assets/sadcover.jpg
+    - assets/lovecover.jpg
+    - assets/tangmo.jpg
+    - assets/3mandowncover.jpg
+    - assets/tillybirdscover.jpg
+    - assets/potatocover.jpg
+    - assets/paitorther-3.mp3
+    - assets/kangkun-3.mp3
+    - assets/tatherluxchanjing-3.mp3
+    - assets/pakdee-potato.mp3
+    - assets/yangmeechan-potato.mp3
+    - assets/luxtherpaitookwan-potato.mp3
+    - assets/kittaemaitueng-tilly.mp3
+    - assets/mairoosenk-tilly.mp3
+    - assets/taraojerkunaek-tilly.mp3
+    - assets/developer.jpg
+    
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: fonts/Nunito/Nunito-Regular.ttf
+        - asset: fonts/Nunito/Nunito-Bold.ttf
